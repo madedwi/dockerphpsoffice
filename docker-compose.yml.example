@@ -1,0 +1,19 @@
+version: '3'
+
+networks:
+  custom-network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 73.0.0.0/16
+
+services:
+  php7:
+    build: ./php7
+    image: php7_webserver
+    hostname: dockerphpsoffice
+    volumes:
+      - {host_directory_to_mount}:/var/www/html
+    networks:
+      custom-network:
+        ipv4_address: 73.0.0.2

@@ -1,0 +1,14 @@
+deb http://mirror.unej.ac.id/ubuntu/ bionic main restricted
+deb http://mirror.unej.ac.id/ubuntu/ bionic-updates main restricted
+deb http://mirror.unej.ac.id/ubuntu/ bionic universe
+deb http://mirror.unej.ac.id/ubuntu/ bionic-updates universe
+deb http://mirror.unej.ac.id/ubuntu/ bionic multiverse
+deb http://mirror.unej.ac.id/ubuntu/ bionic-updates multiverse
+deb http://mirror.unej.ac.id/ubuntu/ bionic-backports main restricted universe multiverse
+deb http://mirror.unej.ac.id/ubuntu/ bionic-security main restricted
+deb http://mirror.unej.ac.id/ubuntu/ bionic-security universe
+deb http://mirror.unej.ac.id/ubuntu/ bionic-security multiverse
+
+#deb http://deb.debian.org/debian stretch main
+#deb http://security.debian.org/debian-security stretch/updates main
+#deb http://deb.debian.org/debian stretch-updates main
