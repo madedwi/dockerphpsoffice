@@ -7,6 +7,11 @@ Docker-compose untuk keperluan DMS App
 4. Jalankan command build 
 5. Jalankan command up
 
+# Database setting
+1. Gunakan 172.17.0.1:3306 sebagai DSN pada database config.
+2. Grand access root@128.0.0.2 pada database
+
+
 Reff : 
 
 [Install Docker Windows](https://docs.docker.com/docker-for-windows/install/)
